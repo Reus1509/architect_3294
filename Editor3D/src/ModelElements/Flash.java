@@ -1,4 +1,7 @@
 package ModelElements;
+import Staff.Point3D;
+import Staff.Angle3D;
+import Staff.Color;
 
 public class Flash {
     public Point3D location;

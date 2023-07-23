@@ -1,4 +1,6 @@
 package ModelElements;
+import Staff.Point3D;
+import Staff.Angle3D;
 
 public class Camera {
     public Point3D location;
