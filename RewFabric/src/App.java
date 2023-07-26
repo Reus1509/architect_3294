@@ -21,6 +21,8 @@ public class App {
         itemGenerator clothesFab = new ClothesFabric();
         itemGenerator weaponFab = new WeaponFabric();
         itemGenerator poitionFab = new PoitionFabric();
+
+        Singleton singleton = Singleton.getInstance();
         // goldFab.openReward();
         // gimFab.openReward();
 
