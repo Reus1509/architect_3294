@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "Editor3D/src"
+        "Editor3D\\src",
+        "RewFabric\\src"
     ]
 }
