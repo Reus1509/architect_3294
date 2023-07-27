@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "Editor3D\\src",
-        "RewFabric\\src"
+        "RewFabric\\src",
+        "CarApp\\src"
     ]
 }
