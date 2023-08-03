@@ -11,7 +11,7 @@ import java.util.*;
  */
 public class TicketRepository implements ITicketRepo {
     private static TicketRepository ticketRepository;
-    private List<Ticket> tickets;
+    private static List<Ticket> tickets;
 
     private TicketRepository() {
         //здесь симуляция работы с БД
