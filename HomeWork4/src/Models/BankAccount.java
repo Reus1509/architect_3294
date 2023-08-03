@@ -4,7 +4,21 @@ package Models;
  * Модель банковского аккаунта
  */
 public class BankAccount {
+    public void setBalance(int balance) {
+        this.balance = balance;
+    }
 
+    public long getCard() {
+        return card;
+    }
+
+    public int getBalance() {
+        return balance;
+    }
+
+    private long card;
+    private int balance;
+    private long oldCard;
 
 
 
@@ -13,6 +27,9 @@ public class BankAccount {
         oldCard = this.card;
         balance = 1000;
     }
+
+
+
 
     @Override
     public String toString() {
