@@ -1,8 +1,10 @@
 {
     "java.project.sourcePaths": [
         "RewFabric/src",
+        "HomeWork4/src",
         "Editor3D/src",
         "CarApp/src",
-        "HomeWork4/src"
+        "BearFactory",
+        "BearFactory\\BeerFactory\\src"
     ]
 }
